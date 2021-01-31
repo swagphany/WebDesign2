@@ -1,4 +1,4 @@
-CITC 1320 and WEBT 1320 Web Projects
+## CITC 1300 and WEBT 1320
+<h1> My Web Projects </h1>
 
-<h1>my web projects</h1>
-<a href="lab1/index.html> target="_blank" Lab1 Hello World 
+<a href="lab1/index.html" target="_blank">Lab1 Hello World</a>
