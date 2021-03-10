@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(68, 131, 71); 
+    }
+    
+    img{
+       max-width: 100%;
+        display: block;
+        margin: 20px auto;
+        width: 50%;
+    }
+    
+    a {
+        color: black;
+    }
+    
+    a:hover {
+        color: tan;
+    }
+    
+    #container {
+        background-color: rgba(184, 122, 243, 0.904);
+        width: 75%;
+        margin: 20px auto;
+        padding: 20px;
+        border: 2px solid black;
+    }
+    
+    header {
+        font-size: 40px;
+        text-align: center;
+        color: tan;
+    }
+    
+    nav {
+        text-align: center;
+    }
+    
+    nav a {
+        color: black;
+        font-size: 22px;
+        margin: 0 20px;
+    }
+    
+    nav a:hover {
+        color: tan;
+        text-decoration: none;
+    }
+    
+    main {
+        background-color: tan;
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid black;
+    }
+    
+    img {
+        border: 2px solid black
+        border-radius: 20px;
+    }
+    footer {
+        padding: 20px;
+        text-align: center;
+        color: black;
+    }
