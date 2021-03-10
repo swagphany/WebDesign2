@@ -33,11 +33,16 @@ body {
     
     nav {
         text-align: center;
+        background-color: white;
+        padding: 20px 0;
+        margin-top: 20px;
     }
     
     nav a {
-        color: rgb(243, 161, 195);
+       background-color: yellow;
+        color:black (0, 0, 0);
         font-size: 22px;
+        padding: 15px 50px;
         margin: 0 20px;
     }
     
@@ -47,18 +52,25 @@ body {
     }
     
     main {
-        background-color: white ite(255, 255, 255);
+        background-color: white (255, 255, 255);
         margin: 20px;
         padding: 20px;
         border: 2px solid black;
     }
-    
-    img {
-        border: 2px solid black
-        border-radius: blueviolet 20px;
-        widtht: 75%
-        margin: 0 auto;
+    main h1 {
+text-emphasis: center;
     }
+    
+   main img {
+        display: block;
+        width: 75%;
+        margin: 20px auto;
+    border-radius: 20px;
+        border: 2px solid black;
+        box-shadow: 5px 10px 10px black;
+    
+    }
+
     footer {
         padding: 20px;
         text-align: center;
