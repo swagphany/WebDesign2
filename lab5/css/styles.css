@@ -1,0 +1,68 @@
+/* Global Styles */
+
+body {
+    Background-color: rgb(144, 240, 144) 
+}
+
+img {
+    max-width; 100%;
+}
+
+a {
+color: black;
+}
+
+a:hover {
+    color: white; 
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+
+header {
+    background-color: pink;
+    padding: 40px 0;
+    text-align: center;
+}
+
+nav { 
+    background-color: pink;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    padding: 15px 0;
+    border-top: 1px solid tan ;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    background-color: rgb(252, 252, 121);
+}
+
+main {
+background-color: white;
+padding: 20px;
+margin: 10px;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 10px;
+}
+
+
