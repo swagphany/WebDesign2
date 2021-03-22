@@ -7,6 +7,7 @@
 <li><a href="lab3/index.html" target="_blank">Lab 3 - Basic HTML Semantics </a></li>
 <li><a href="lab4/index.html" target="_blank">Lab 4 - Introduction to CSS </a></li>
 <li><a href="midterm/index.html" target="_blank">Midterm - Chattanooga Markets</a></li>
+<li><a href="midterm/index.html" target="_blank">lab5 - Fairy Findings on Phone</a></li>
 <ul>
 
 
