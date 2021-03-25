@@ -12,4 +12,3 @@
 <ul>
 
 
-Lab 6 - Fairy Findings
