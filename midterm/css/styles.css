@@ -116,7 +116,8 @@ aside {
 @media only screen and (min-width: 1024px) {
     header {
         background-image: url('../images/pic7.jpg');
-        padding: 100px 0;
+        padding: 150
+        px 0;
     }
 
     header h1 {
