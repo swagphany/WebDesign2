@@ -1,0 +1,64 @@
+.footer-subscription-payment-failure-notification-container {
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	background: #320049;
+  	color: #ffffff;
+  	z-index:1000;
+}
+
+.footer-subscription-payment-failure-notification-container a {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+.footer-subscription-payment-failure-notification-container a:hover {
+	color: #ffffff;
+}
+
+.billing-update-info-container, .billing-cancellation-info-container {
+	display: inline-block;
+}
+
+.billing-update-info-container {
+	width:100%;
+	padding: 16px 10px;
+	text-align: center;
+}
+
+.billing-cancellation-info-container {
+	width:15%;
+	padding: 16px 10px;
+	text-align: right;
+	font-size: 0.8em;
+	margin-left: -20%;
+}
+
+@media only screen and (max-width: 767px) {
+
+	.billing-update-info-container {
+		padding: 16px 10px 8px 10px;
+	}
+
+	.billing-cancellation-info-container {
+		width:100%;
+		padding: 8px 10px 16px 10px;
+		text-align: center;
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.billing-update-info-container {
+		padding: 16px 10px 8px 10px;
+	}
+
+	.billing-cancellation-info-container {
+		width:100%;
+		padding: 8px 10px 16px 10px;
+		text-align: center;
+		margin-left: 0;
+	}
+}

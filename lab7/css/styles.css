@@ -1,0 +1,155 @@
+/* Global Styles */
+
+body {
+    Background-color: rgb(144, 240, 144) 
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+color: black;
+}
+
+a:hover {
+    color: white; 
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+
+header {
+    background-color: pink;
+    padding: 40px 0;
+    text-align: center;
+}
+
+nav { 
+    background-color: pink;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    padding: 15px 0;
+    border-top: 1px solid tan ;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    background-color: rgb(255, 255, 136);
+}
+
+main {
+background-color: white;
+padding: 20px;
+margin: 10px;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 10px;
+}
+
+.desktop {
+    display: none;
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) {
+header {
+    background-image: url('../images/pic6.jpg.JPG');
+    background-size: cover;
+    background-position: center center;
+    padding: 60px 0;
+}
+
+header h1 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: em;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a {
+    padding: 10px 40px;
+}
+
+main {
+    display: flex;
+}
+
+section, aside {
+    border: 4px solid  rgb(255, 255, 136);
+    padding: 20px;
+    margin: 10px
+}
+
+section {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+}
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1024px) {
+    header {
+        background-image: url('../images/pic7.jpg');
+        padding: 100px 0;
+    }
+
+    header h1 {
+font-size: 3em ;
+    }
+
+nav li a {
+    font-size: 30px;
+    padding: 20px 75px;
+
+}
+
+#container {
+    width: 75%;
+    margin: 20px auto;
+    border: 4px solid  rgb(255, 255, 136);
+}
+
+.desktop {
+    display: block;
+}
+
+.tab_mobile {
+    display: none;
+}
+
+}
+
+.active{
+    background-color: rgb(255, 255, 136);
+}
+
+main img {
+    border-radius: 20px;
+    border: 4px solid  rgb(255, 255, 136);
+}
