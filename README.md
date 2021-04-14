@@ -10,6 +10,8 @@
 <li><a href="lab5/index.html" target="_blank"> Lab 5 - Fairy Findings on Mobile</a></li>
 <li><a href="lab6/index.html" target="_blank">Lab 6 - Fairy Findings</a></li>
 <li><a href="lab7/index.html" target="_blank">Lab 7 - Audio, Video and Table</a></li>
+<li><a href="lab8/index.html" target="_blank">jQuery Demo</a></li>
+
 <ul>
 
 
