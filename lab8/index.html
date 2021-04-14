@@ -7,20 +7,23 @@
 	<title>jQuery Demo</title>
 	<link href="css/normalize.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="dist/slicknav.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<link rel="stylesheet" href="css/slicknav.min.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.min.css">
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="dist/jquery.slicknav.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="js/zenscroll-min.js"></script>/script>
-
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="js/zenscroll-min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
 <script>
     $(function(){
         $('#menu').slicknav();
-		$('.slider').bxSlider();
 		$( "#accordion" ).accordion();
-		$( "#tabs" ).tabs(); 
+		$( "#tabs" ).tabs();
+	});
+	$(document).ready(function(){
+		$('.slider').bxSlider();
+	});
 </script>
 
 </head>
@@ -33,7 +36,7 @@
 
 		<nav>
 			<ul id="menu">
-				<li><a href="#">Home</a></li>
+				<li><a href="#main">Home</a></li>
 				<li><a href="main">About</a></li>
 				<li><a href="portfolio">Portfolio</a></li>
 				<li><a href="contact">Contact</a></li>
@@ -43,63 +46,46 @@
 			<section>
 				<article>
 					<div class="slider">
-						<div><img src="https://placeimg.com/640/480/tech" alt=""> </div>
-						<div><img src="https://placeimg.com/640/480/people" alt=""></div>
-					  </div>
+						<div><img src="images/tech.jpg" alt="tech"> </div>
+						<div><img src="images/people.jpg" alt="people"></div>
+					</div>
 
 					<h2 id="main">Main Content</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti itaque laborum error minima ullam nemo
-						voluptatibus voluptate aliquid ex enim cum atque, possimus labore cupiditate. Voluptates vero nobis nihil,
-						modi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto autem blanditiis eaque iusto
-						praesentium saepe ex, maxime et harum dolore, deleniti veritatis dolor incidunt expedita adipisci tenetur.
-						Obcaecati, quasi maxime!</p>
+					<p>I make jewelry out of natural items a fairy would find on a frolic in the forest. This includes rocks, crystals, flowers, leaves, and anything shiny! I have also received many donations of shells, bones, and even human teeth! The most beautiful pieces are made from the natural items the earth provides!</p>
 						<img src="https://placeimg.com/640/480/tech" alt="">
 						<div id="accordion">
-							<h3>Section 1</h3>
+							<h3>Natural Items</h3>
 							<div>
 							  <p>
-							  Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-							  ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-							  amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-							  odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+								I take pride in building my jewelry from the ground up. Absolutely everything begins with nothing, and ends with something. I even make my chains for my necklaces! I start with a spool of chain, and add some jump hoops and lobster clasps. With my crystal earrings, I start with a spool of wire, add some crystals, then use my tools to create a design, then add jump hoops and an earring piece! Everything I make is built from spools of wire, chain, or beads. The clay mushrooms and earrings are handcrafted, the candles are made in a pot over the stove!
 							  </p>
 							</div>
-							<h3>Section 2</h3>
+							<h3>Credentials</h3>
 							<div>
 							  <p>
-							  Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-							  purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-							  velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-							  suscipit faucibus urna.
+								I started making jewelry a few years ago. I have always been an artist, but I had no clue jewelry making would be my passion. I began making jewelry to wear for myself, and it kind of tumbled into making it for coworkers, friends, and family! I worked full time in the repair shop at Jared Jewelry as an apprentice jeweler to understand what goes into making high-end jewelry. I worked hard to earn the Jewelry Designing certificate at IAP Career College, and I will finish my Business degree this spring! It is an amazing feeling to finally receive all of these credentials I have been working so hard for! 
 							  </p>
 							</div>
-							<h3>Section 3</h3>
+							<h3>Other Comments</h3>
 							<div>
 							  <p>
-							  Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-							  Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-							  ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-							  lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+								My favorite thing about making jewelry is seeing people wear the art I create. It is the best feeling in the world to watch someone enjoy and express themselves through what I created! Jewelry Making has been an extraordinary outlet for me, and I am constantly searching to improve and expand my knowledge about jewelry making!
 							  </p>
 							  <ul>
-								<li>List item one</li>
-								<li>List item two</li>
-								<li>List item three</li>
+								<li>Chattanooga Market</li>
+								<li>River Market</li>
+								<li>Collegedale Market</li>
 							  </ul>
 							</div>
-							<h3>Section 4</h3>
+							<h3>Markets</h3>
 							<div>
 							  <p>
-							  Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-							  et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-							  faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-							  mauris vel est.
+								The Chattanooga Market is the region’s largest producer-only marketplace.
+      It is established to provide fresh produce and locally-produced arts and craft wares to Chattanoogans and community visitors. 
+      It offers entrepreneurs who are hand-making, growing or otherwise creating their own goods a low-cost environment to start, grow and expand their business. 
+      Chattanooga will have three different market locations, and I am honored to be apart of them all!
 							  </p>
-							  <p>
-							  Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-							  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-							  inceptos himenaeos.
-							  </p>
+							
 							</div>
 						  </div>
 				<a class="button"> back to the top </a>
@@ -136,10 +122,10 @@
 				</div>
 				<aside id="contact">
 					<h3>Contact Info.</h3>
-					<h4>Jimmy Jo</h4>
+					<h4>Stephany Poe</h4>
 					<ul>
-						<li><a href="#">Email Me</a></li>
-						<li><a href="555-555-5555">Call Me</a></li>
+						<li><a href="stephanypoe@gmail.com">Email Me</a></li>
+						<li><a href="423-314-3966">Call Me</a></li>
 					</ul>
 				</aside>
 			</section>
